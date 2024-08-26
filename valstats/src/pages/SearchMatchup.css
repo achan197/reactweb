@@ -1,0 +1,68 @@
+.teams_page {
+    box-sizing: border-box;
+    
+}
+
+.matchup-bar {
+    display: flex;
+    position: relative;
+    height: 600px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.team-one {
+    padding: 25px;
+}
+
+.team-one-header {
+    padding-left: 35px;
+    margin-bottom: 5px;
+}
+
+.team-two {
+    padding: 25px;
+}
+
+.team-two-header {
+    padding-left: 35px;
+    margin-bottom: 5px;
+}
+
+.versus {
+    margin: 0px;
+    height: 300px;
+    padding-top: 60px;
+}
+
+.versus-text {
+    margin: 0px;
+    /* height: 50px; */
+    padding-top: 0px;
+}
+
+.search-icon-wrapper {
+    font-size: 25px;
+    height: 310px;
+    padding-top: 60px;
+    box-sizing: border-box;
+
+}
+
+.search-icon-bg {
+    background-color: var(--med-grey);
+    padding:  7px 15px 7px 15px;
+    border-radius: 1rem;
+
+}
+
+#search-icon {
+    font-size: 1.25rem;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.search-link:link, .search-link:visited {
+    text-decoration: none;
+    color: black;
+}

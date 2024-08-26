@@ -1,0 +1,29 @@
+.grid-container {
+    /* padding: 20px;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(450px, 1fr));
+    grid-template-rows: repeat( auto-fit, minmax(150px, 1fr));
+    gap: 0px; */
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    border-radius: .5rem;
+    height: 153px;
+    width: 425px;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 5px;
+    position: relative;
+}
+
+.card * {
+    pointer-events: none;
+}

@@ -1,0 +1,36 @@
+.search_wrapper {
+    padding-top: 0px;
+    display:inline-block;
+    justify-content: center;
+    flex-direction: column;
+    position:relative;
+}
+
+.input_wrapper {
+    padding-top: 100px;
+    width: 400px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    height: 2.8rem;
+    background: white;
+    outline: none;
+    border: none;
+    border-radius: 1.625rem;
+    padding: 0 0 0 2rem;
+    font-size: 1rem;
+    margin: auto;
+    flex: 1;
+}
+
+.input {
+    width: 75%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-size: 1.25rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+

@@ -1,0 +1,70 @@
+.display-linebreak {
+    white-space: pre-line;
+    margin:25px;
+    width: 200px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+
+.match-container {
+    background-color: grey;
+    box-sizing: border-box;
+    width: 650px;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.match-card {
+    background-color: white;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 600px;
+    box-sizing: border-box;
+
+    .team-logo {
+        height: 50px;
+        width: 50px;
+        padding: 5px;
+        text-align: center;
+    }
+}
+
+.team-one-container {
+    width: 150px;
+    height: 60px;
+    align-items: center;
+    text-align: right;
+}
+
+.team-two-container {
+    width: 150px;
+    height: 60px;
+    align-items: center;
+}
+
+.scoreboard {
+    display: flex;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.scoreboard > span {
+    margin: 0px;
+    width: 10px;
+}
+
+.winner {
+    background-color: rgb(66, 196, 66, .5);
+}
+
+.loser {
+    background-color: rgba(228, 31, 31, 0.5);
+}

@@ -1,0 +1,105 @@
+.mapstats-container {
+    background-color: grey;
+    width: 1050px;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+}
+
+.table-background {
+    background-color: white;
+    align-items: center;
+    width: 1030px;
+    padding: 10px;
+}
+
+.mapstats-table {
+    background-color: white;
+    margin: auto;
+    width: 1030px;
+    vertical-align: middle;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    text-indent: 0px;
+}
+
+.agent-img {
+    height: 35px;
+    margin: 0px 1px;
+}
+
+.map-img {
+    height: 50px;
+    display:block;
+}
+
+.roww {
+    height: 50px !important;
+}
+
+.cell {
+    height: 50px !important;
+    margin: 0 !important;
+    width: auto;
+    align-items: center;
+    text-align: center;
+    border: 1px solid lightgray;
+    vertical-align: middle;
+    border-spacing: 0;
+}
+
+.agent-cell {
+    width: px !important;
+}
+
+.map-cell {
+    width: 0px !important;
+}
+
+.percent-cell {
+    width: 55px !important;
+}
+
+.wl-cell {
+    width: 40px !important;
+}
+
+td {
+    padding: 0px;
+}
+
+table td, table th {
+    border-right: 1px solid lightgray;
+}
+
+table tr:first-child th {
+border-top: 0;
+}
+
+table tr:last-child td {
+border-bottom: 0;
+}
+
+table tr td:first-child,
+table tr th:first-child {
+border-left: 0;
+}
+
+table tr td:last-child,
+table tr th:last-child {
+border-right: 0;
+}
+
+th:nth-child(4),
+th:nth-child(11),
+td:nth-child(4),
+td:nth-child(11){
+  border-right: 2px black solid !important;
+}
+
+.main-headers {
+    height: 45px;
+}
+.main-headers th:nth-child(1), .main-headers th:nth-child(2){
+    border-right: 2px black solid;
+}
