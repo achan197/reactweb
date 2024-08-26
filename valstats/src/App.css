@@ -6,14 +6,16 @@
       position: absolute;
       min-width: 100%;
       box-sizing: border-box;
-      width: 100vw;
       top: 0;
       left: 0;
       background-color: var(--light-grey);
-  }
-  
-  
+  }  
 } 
+
+html { 
+  overflow-y: scroll;
+  overflow-x: hidden;
+ }
 
 .App-logo {
   height: 40vmin;
